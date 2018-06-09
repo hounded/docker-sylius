@@ -1,0 +1,19 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius_admin:
+    resource: "@SyliusAdminBundle/Resources/config/routing.yml"
+    prefix: /admin
+
+sylius_api:
+    resource: "@SyliusAdminApiBundle/Resources/config/routing.yml"
+    prefix: /api
+
+sylius_shop:
+    resource: "@SyliusShopBundle/Resources/config/routing.yml"
+
+sylius_shop_payum:
+    resource: "@SyliusShopBundle/Resources/config/routing/payum.yml"
+
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"

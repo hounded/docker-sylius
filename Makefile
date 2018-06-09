@@ -30,8 +30,7 @@ up:: ##@Sylius Start the Sylius stack for development (using docker-compose)
 		-f docker-compose.yml \
 		-p $(PROJECT) \
 		$(DOCKER_COMPOSE_EXTRA_OPTIONS) \
-		up \
-		--build
+		up 
 
 .PHONY: rm
 rm:: ##@Compose Clean docker-compose stack

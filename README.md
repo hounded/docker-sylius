@@ -19,8 +19,14 @@ You can control, customize and extend the behaviour of this environment with ``m
 Because ``docker-compose.yml`` uses Compose file format 2.1 at least **Docker version 1.12** ist required for this environment.
 
 ## Quickstart
-
+* Make a folder called sylius 
+* Uncommet the 01-create-project.sh 
+* Run docker-compose up // or make up 
+* Re comment the 01-create-project.sh
+* edit your project in the sylius folder as you see fit
 ```
+
+
 git clone https://github.com/sylius/docker sylius-docker
 make help
 make up
